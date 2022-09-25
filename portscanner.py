@@ -22,7 +22,7 @@ for port in port_list:
         print('{ [+] Port : ', port, 'open }')
         print("----------------------------")
     else:
-        logger.info(f"{ip} {port} is closed!")
+        logger.info(f"{ip} {port} is closed!")  # If ports are closed write to file!
         print("----------------------------")
         print('{ [!] Port : ', port, 'closed } ')
         print("----------------------------")
