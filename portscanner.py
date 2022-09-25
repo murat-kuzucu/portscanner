@@ -8,7 +8,6 @@ logging.basicConfig(filename='closedports.log', format='%(asctime)s %(message)s'
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
-sleep(0.60)
 
 host = input("[+] ENTER THE TARGET IP : ")
 ip = host
