@@ -1,6 +1,5 @@
 import logging
 import socket
-from time import sleep
 
 logging.basicConfig(filename='closedports.log', format='%(asctime)s %(message)s',
                     filemode='w')
