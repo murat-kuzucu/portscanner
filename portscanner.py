@@ -19,7 +19,6 @@ for port in port_list:
     result = s.connect_ex((ip, port))
 
     if result == 0:
-        logger.info(f"{ip} {port} is open!")
         print('{ [+] Port : ', port, 'open }')
         print("----------------------------")
     else:
