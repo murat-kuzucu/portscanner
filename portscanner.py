@@ -4,8 +4,6 @@ from time import sleep
 
 logging.basicConfig(filename='closedports.log', format='%(asctime)s %(message)s',
                     filemode='w')
-logging.basicConfig(filename='openports.log',format='%(asctime)s %(message)s',
-                    filemode='w')
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
