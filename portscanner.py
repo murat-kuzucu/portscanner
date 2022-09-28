@@ -17,12 +17,12 @@ for port in port_list:
     result = s.connect_ex((ip, port))
 
     if result == 0:
-        print('{ [+] Port : ', port, 'open }')
+        print(f"{ip} {port} is open!")
         print("----------------------------")
     else:
         logger.info(f"{ip} {port} is closed!")  # If ports are closed write to file!
         print("----------------------------")
-        print('{ [!] Port : ', port, 'closed } ')
+        print(f"{ip} {port} is closed!")
         print("----------------------------")
 
 input("Scan is done press ENTER to EXIT!")
